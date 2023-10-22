@@ -4,6 +4,7 @@ import { theme } from './theme';
 import { Header } from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import ChosePlan from './components/ChoosePlan';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Header />
         <Hero />
         <Services/>
+        <ChosePlan/>
       </Container>
     </MantineProvider>
   );
