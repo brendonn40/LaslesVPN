@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import ChosePlan from './components/ChoosePlan';
+import Global from './components/Global';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Hero />
         <Services/>
         <ChosePlan/>
+        <Global/>
       </Container>
     </MantineProvider>
   );

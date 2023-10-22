@@ -34,7 +34,7 @@ function PlanCard({
       </Stack>
       <Stack gap={33}>
         <Text className={classes.price}>{price}</Text>
-        <Button variant={selected ? 'filled':'outline'} color="#F53838" size="lg" radius={'xl'}>
+        <Button variant={selected ? 'filled':'outline'} color="#F53838" size="lg" radius={'xl'} mb={50}>
           Select
         </Button>
       </Stack>

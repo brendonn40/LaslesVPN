@@ -1,15 +1,17 @@
 import { Stack, Title, Text, Flex } from '@mantine/core';
 import classes from './style.module.css';
 import PlanCard from '../PlanCard';
+import { useIsMobile } from '../../hooks/useIsMobile';
 function ChosePlan() {
+    const isMobile = useIsMobile();
   return (
-    <Stack justify='center' align='center'>
-      <Title className={classes.title}>Choose Your Plan</Title>
+    <Stack justify='center' align='center' mt={isMobile ? 40:80}>
+      <Text className={classes.title}>Choose Your Plan</Text>
       <Text className={classes.text}>
         Let's choose the package that is best for you and explore it happily and
         cheerfully.
       </Text>
-      <Flex gap={50}>
+      <Flex gap={50} direction={isMobile ? 'column-reverse':'row'}>
         <PlanCard
           name="Free Plan"
           image="/Free.svg"

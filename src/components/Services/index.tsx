@@ -15,9 +15,9 @@ function Services() {
     >
       <Image src={'/Illustration 2.png'} maw={508} />
       <Stack gap={20}>
-        <Title className={classes.title}>
+        <Text className={classes.title}>
           We Provide Many Features You Can Use
-        </Title>
+        </Text>
         <Text className={classes.text}>
           You can explore the features that we provide with fun and have their
           own functions each feature.
