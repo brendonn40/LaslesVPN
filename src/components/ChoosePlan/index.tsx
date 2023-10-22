@@ -1,4 +1,4 @@
-import { Stack, Title, Text, Flex } from '@mantine/core';
+import { Stack,Text, Flex } from '@mantine/core';
 import classes from './style.module.css';
 import PlanCard from '../PlanCard';
 import { useIsMobile } from '../../hooks/useIsMobile';
