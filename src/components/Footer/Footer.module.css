@@ -1,0 +1,99 @@
+.footer {
+    padding-top: calc(var(--mantine-spacing-xl) * 2);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+    background: #F8F8F8;;
+    border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+
+  }
+  
+
+  .logo {
+    width: 41px;
+    height: 41px;
+    background-color:#fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5B9BF3;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .description {
+    margin-top: rem(5px);
+    max-width: 340px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;;
+    @media (max-width: $mantine-breakpoint-sm) {
+      margin-top: var(--mantine-spacing-xs);
+      text-align: center;
+    }
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .groups {
+    display: flex;
+    flex-wrap: wrap;
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      display: none;
+    }
+  }
+  
+  .wrapper {
+    width: rem(160px);
+  }
+  
+  .link {
+    display: block;
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: rem(3px);
+    padding-bottom: rem(3px);
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .title {
+    color: #0B132A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 300% */
+  }
+  
+  .afterFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--mantine-spacing-xl);
+    padding-top: var(--mantine-spacing-xl);
+    padding-bottom: var(--mantine-spacing-xl);
+    border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-4));
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      flex-direction: column;
+    }
+  }
+  
+  .social {
+    @media (max-width: $mantine-breakpoint-sm) {
+      margin-top: var(--mantine-spacing-xs);
+    }
+  }

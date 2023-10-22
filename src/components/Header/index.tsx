@@ -8,7 +8,6 @@ import {
   Drawer,
   ScrollArea,
   rem,
-  useMantineTheme,
   Image,
   Flex,
 } from '@mantine/core';
@@ -19,11 +18,10 @@ import classes from './style.module.css';
 export function Header() {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
     useDisclosure(false);
-  const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
-  const theme = useMantineTheme();
+
 
   return (
-    <Box pb={120}>
+    <Box pb={60}>
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <Flex gap={10} justify={'center'} align={'center'}>

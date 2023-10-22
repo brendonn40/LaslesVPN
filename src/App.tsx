@@ -7,6 +7,8 @@ import Services from './components/Services';
 import ChosePlan from './components/ChoosePlan';
 import Global from './components/Global';
 import Feedback from './components/Feedback';
+import Subscribe from './components/Subsribe';
+import { Footer } from './components/Footer';
 
 export default function App() {
   return (
@@ -14,15 +16,17 @@ export default function App() {
       <Container size={'lg'}>
         <Header />
         <Hero />
-        <Services/>
-        <ChosePlan/>
-        <Global/>
-
+        <Services />
+        <ChosePlan />
+        <Global />
       </Container>
       <Container size={'xl'}>
-      <Feedback/>
-
+        <Feedback />
       </Container>
+      <Container size={'lg'}>
+        <Subscribe />
+      </Container>
+      <Footer/>
     </MantineProvider>
   );
 }
