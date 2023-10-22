@@ -1,0 +1,44 @@
+.card {
+  max-width: 400px;
+  min-height: 230px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: #fff;
+  padding: 30px;
+}
+.card:hover {
+  border: 2px solid #f53838;
+}
+.name {
+  color: #0b132a;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.region {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.rating {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+.feedback {
+  max-width: 340px;
+  height: 100px;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
